@@ -8,8 +8,11 @@ Questions:
 
 1.  What statement would you use to create a variable name "logo" and assign as its value a reference to the element with the "id" value "logoImage"?
 
-
+      I would use:  var logo = getElementById("logo");
 
 
 
 2.  What statement would you use to create a variable named "firstPriority" and assign as its value a reference to the first "li" element in the document?
+
+
+      I would use: var firstPriority = getElementsByTagName("li")[0];
